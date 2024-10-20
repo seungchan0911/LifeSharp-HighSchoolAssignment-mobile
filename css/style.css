@@ -1,4 +1,18 @@
 @font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'GabiaGosran-Regular';
     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2409-2@1.0/GabiaGosran-Regular.woff2') format('woff2');
     font-weight: normal;
@@ -112,6 +126,7 @@ main {
 .main__popular {
     width: 100%;
     margin-top: 15px;
+    font-family: 'Pretendard-Regular';
 }
 
 .title-text__main__popular {
@@ -119,6 +134,7 @@ main {
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    font-family: 'S-CoreDream-3Light';
 }
 
 .bar__main__popular {
