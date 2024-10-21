@@ -25,7 +25,7 @@
                 <div class="inner-header">
                     <div class="header__bar">
                         <a href="#">
-                            <i class="fa-solid fa-bars"></i>
+                            <label for="open"><i class="fa-solid fa-bars"></i></label>
                         </a>
                     </div>
                     <div class="header__logo">
@@ -38,6 +38,37 @@
                     </div>
                 </div>
             </header>
+            <input type="radio" id="open" name="sidebar" hidden>
+            <div class="side-bar">
+                <div class="inner-side-bar">
+                    <div class="top-side-bar">
+                        <a href="#" class="xmark">
+                            <input type="radio" id="close" name="sidebar" checked hidden>
+                            <label for="close"><i class="fa-solid fa-xmark"></i></label>
+                        </a>
+                    </div>
+
+                    <div class="side-bar__main-nav">
+                        <ul>
+                            <li><a href="#">인생샤프에서만</a></li>
+                            <li><a href="#">인기있는</a></li>
+                            <li><a href="#">종류별로</a></li>
+                            <li><a href="#">고급샤프들</a></li>
+                            <li><a href="#">샤프 리뷰</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="side-bar__login-nav">
+                        <ul>
+                            <li><a href="#">login</a></li>
+                            <div class="bar"></div>
+                            <li><a href="#">home</a></li>
+                            <div class="bar"></div>
+                            <li><a href="#">my page</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>   
             <main>
                 <div class="inner-main">
                     <div class="main__banner">
