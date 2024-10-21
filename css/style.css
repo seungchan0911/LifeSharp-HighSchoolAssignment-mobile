@@ -79,8 +79,9 @@ label {
     align-items: center;
     width: 187px;
     height: 100%;
-    background-color: #000000c1;
+    background-color: #000000ed;
     border: 1px solid rgb(160, 160, 160);
+    font-size: 18px;
     color: white;
     z-index: 10;
     overflow: hidden;
@@ -150,9 +151,22 @@ label {
     background-color: white;
 }
 
+.side-bar-background-close div {
+    position: fixed;
+    right: 0;
+    width: calc(100% - 187px);
+    height: 100vh;
+    display: none;
+    opacity: 0;
+}
+
 #open:checked ~ .side-bar {
     width: 187px;
     opacity: 0.9;
+}
+
+#open:checked ~ .side-bar-background-close div {
+    display: block;
 }
 
 /* header */
