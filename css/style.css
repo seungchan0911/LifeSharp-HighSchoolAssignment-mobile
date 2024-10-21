@@ -134,6 +134,7 @@ label {
     font-family: 'HakgyoansimBadasseugiTTF-L';
     text-align: center;
     margin-bottom: 100px;
+    font-weight: bold;
 }
 
 .side-bar__main-nav ul {
@@ -168,6 +169,7 @@ label {
 #open:checked ~ .side-bar-background-close div {
     display: block;
 }
+
 
 /* header */
 
